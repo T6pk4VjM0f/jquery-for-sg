@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <button>A</button>
+  <button>B</button>
+  <div class="view"></div>
+  <script>
+    $("button").on("click", function (){$(".view").html(this.innerHTML);});
+  </script>
+</body>
+</html>
